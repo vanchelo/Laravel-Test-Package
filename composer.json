@@ -1,0 +1,20 @@
+{
+    "name": "vanchelo/test",
+    "description": "test package",
+    "authors": [
+        {
+            "name": "vanchelo",
+            "email": "brezhnev.ivan@yahoo.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Vanchelo\\Test": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
